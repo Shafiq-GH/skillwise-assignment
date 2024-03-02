@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/browserstack/webdriverio-browserstack#readme",
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.10",
     "@wdio/browserstack-service": "^8.32.3",
     "@wdio/cli": "^7",
     "chai": "^4.3.6",
