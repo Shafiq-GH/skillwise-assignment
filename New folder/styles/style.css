@@ -1,0 +1,108 @@
+
+
+.carousel-item img {
+    width: 100%; /* This ensures the image takes the full width of the carousel */
+    height: auto; /* This ensures the height of the image scales in proportion to the width */
+    object-fit: cover; /* This will cover the area of the container without stretching the image */
+    max-height: 500px; /* Adjust this value to match the desired height as per your wireframe */
+}
+
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Optional: adds a semi-transparent overlay to the caption for readability */
+    bottom: 0; /* Aligns the caption at the bottom of the carousel */
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%; /* Adjusts the width of the previous/next controls */
+}
+
+#container1{
+    max-width: 85%;
+}
+
+.custom-container {
+    max-width: 1600px; /* Set your desired width */
+    width: 100%;
+    margin-right: auto; /* These two margin properties will center your container */
+    margin-left: auto;
+    padding: 0 20px 0 20px;
+}
+
+.container-fluid{
+    max-width: 1600px; /* Set your desired width */
+    width: 100%;
+    margin-right: auto; /* These two margin properties will center your container */
+    margin-left: auto;
+    padding: 0 20px 0 20px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.row{
+    margin: 0;
+}
+#navlinksz{
+    
+    justify-content: center;
+}
+#search-bar-home{
+    justify-content: space-between;
+}
+.carousel-control-prev-icon{
+  background-color: black
+}
+.carousel-control-next-icon{
+  background-color: black
+}
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+
+@media (min-width: 992px) { /* Adjust this value based on the Bootstrap version you are using */
+    .custom-center-lg-left {
+      text-align: left !important;
+    }
+  }
+  
+
+  .datepicker-inline .table-condensed {
+    width: 100%; /* Adjust based on your preference */
+    height: auto;
+}
+
+.datepicker-inline .table-condensed th,
+.datepicker-inline .table-condensed td {
+    padding: 15px 25px 15px 25px; /* Increase padding to make the calendar larger */
+    font-size: 18px; /* Increase font size */
+}
+
+/* You might also want to adjust the size of the navigation buttons */
+.datepicker-inline .prev, .datepicker-inline .next {
+    font-size: 20px; /* Larger navigation buttons */
+}
+
+
+
+
+@media (min-width: 992px) { /* Adjust this value based on the Bootstrap version you are using */
+    #calendar-placeholder {
+        /* Example dimensions, adjust as necessary */
+        width: 40%; 
+        margin: auto; /* For horizontal centering */
+        /* For vertical centering, you need its parent to be a flex container as shown above */
+    }
+  }
